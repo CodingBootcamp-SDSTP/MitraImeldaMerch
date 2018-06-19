@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS tbluser;
+DROP TABLE IF EXISTS tbl_user, tbl_taxes, tbl_currency, tbl_payments, tbl_purchase_order, tbl_vendor_name, tbl_function, tbl_user_role;
 	CREATE TABLE tbl_user (
 	userid INTEGER AUTO_INCREMENT,
 	username VARCHAR(50) NOT NULL,
